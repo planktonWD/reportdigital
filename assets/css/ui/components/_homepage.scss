@@ -1,0 +1,75 @@
+#home {
+
+    /*
+
+    // this is the five col grid that was discontinued by John
+
+    .col-5 {
+        float: left;
+        width: 18%;
+        margin: 20px 1%;
+        @include vendor(box-sizing, border-box);
+        border: solid 1px #ccc;
+        @include vendor(transition, 0.3s);
+        padding: 20px;
+
+        img {
+            max-width: 100%;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        &:hover {
+            @include vendor(box-shadow, 0 0 4px rgba(0,0,0,0.6));
+        }
+    }*/
+
+    .galleries-box {
+        width: 100%;
+        margin-left: 0;
+
+        .gallerybutton, ul#galleries .tbox, .galleries-scrollbox, ul#galleries li, .galleries-scroller, ul#galleries {
+            background-color: #eee;
+            height: 225px;
+            padding-bottom: 0;
+        }
+
+        ul#galleries .gallerytitle {
+            overflow: visible;
+            height: 24px;
+            font-size: 11px;
+        }
+
+        .galleries-scroller {
+            width: 951px;
+        }
+
+        .gallerybutton {
+            width: 17px;
+            font-size: 20px;
+            font-family: georgia;
+            font-weight: bold;
+
+            &#galleriesleft {
+                padding: 0 6px 0 12px;
+            }
+
+            &#galleriesright {
+                padding: 0 9px 0 12px;
+            }
+
+            &.gallerybuttonover {
+                color: black;
+            }
+        }
+
+    }
+
+}

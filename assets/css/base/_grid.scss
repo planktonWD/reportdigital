@@ -1,0 +1,61 @@
+@mixin gutter {
+	padding: 0 1.2em;
+}
+
+@mixin double-gutter {
+	padding: 0 2.4em;
+}
+
+@mixin triple-gutter {
+	padding: 0 3.6em;
+}
+
+@mixin margin-gutter {
+	margin: 0 1.2em;
+}
+
+@mixin fw {
+	float: left;
+	width: 100%;
+	@include box-sizing(border-box);
+	position: relative;
+}
+
+@mixin row {
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    @include box-sizing(border-box);
+    padding-bottom: 2em;
+    position: relative;
+	@include clearfix;
+	@include gutter;
+	width: $fix-mqs;
+	
+}
+
+@mixin col {
+    float: left;
+    margin: 0 3.84615384615% 0 0;
+    list-style: none;
+    position: relative;
+    @include box-sizing(border-box);
+    
+    &:last-child {
+    	margin: 0;
+    }
+}
+
+@mixin col-1 { @include col; width: 4.8076923077% }
+@mixin col-2 { @include col; width: 13.4615384615% }
+@mixin col-3 { @include col; width: 22.1153846154% }
+@mixin col-4 { @include col; width: 30.7692307692% }
+@mixin col-5 { @include col; width: 39.4230769231% }
+@mixin col-6 { @include col; width: 48.0769230769% }
+@mixin col-7 { @include col; width: 56.7307692308% }
+@mixin col-8 { @include col; width: 65.3846153846% }
+@mixin col-9 { @include col; width: 74.0384615385% }
+@mixin col-10 { @include col; width: 82.6923076923% }
+@mixin col-11 { @include col; width: 91.3461538462% }
+@mixin col-12 { @include col; width: 100%; margin: 0 }
+

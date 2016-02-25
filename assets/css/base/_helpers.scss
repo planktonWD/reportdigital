@@ -1,0 +1,39 @@
+/*
+
+	General helper classes should you need them in your custom HTML
+
+*/
+
+.divider {
+	width: 100%;
+	margin: 1em 0;
+	/*border-bottom: solid 1px #ccc; */
+	float: left;
+}
+
+@mixin alignleft {
+	float: left;
+	margin: 0 20px $baseline  / 2 0;
+}
+
+.alignleft {
+	@include alignleft;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 $baseline 20px;
+}
+
+.aligncenter {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: auto;
+}
+
+a, .phone {
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all; }

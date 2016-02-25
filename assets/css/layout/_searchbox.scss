@@ -1,0 +1,40 @@
+#searchelements {
+	margin-left: 0;
+	position: relative;
+}
+
+//
+//
+//	on full width move the search over
+//
+//
+
+#search #searchelements, #gallery #searchelements, #preview #searchelements {
+	margin-left: 26px;
+}
+
+//
+//
+// get rid of text-shadow on submit button
+//
+//
+
+#linksearch {
+	text-shadow: none;
+}
+
+
+//
+//
+// move the search tips to right
+//
+//
+#searchtips {
+	text-align: right;
+	margin-right: 3px;
+	font-size: 11px;
+	margin-bottom: 2px;
+	position: absolute;
+	bottom: 0;
+	right: -200px;
+}

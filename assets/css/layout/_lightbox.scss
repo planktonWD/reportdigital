@@ -1,0 +1,151 @@
+/*
+
+	Lightbox Styles
+
+*/
+
+#lightboxfullmodal #thumbnailbloblb {
+	height: 300px;
+}
+
+#floatinglightbox #lightboxtoolbar ul li.first {
+	font-weight: normal;
+	font-size: 15px;
+
+
+}
+
+#lightboxtoolbar a {
+	color: black !important;
+}
+
+.loginforgotpw {
+	font-size: 11px;
+	margin-top: -15px;
+
+	a {
+		color: $primary-color !important;
+
+		&:hover {
+			color: $secondary-color !important;
+		}
+	}
+}
+
+#lightboxdashboard.toolsdialogbox {
+	padding: 0 20px;
+}
+/*
+#lightboxdashboard.toolsdialogbox .boxclosexbutton {
+	right: -20px;
+}
+*/
+
+
+.loginregister {
+	background: #e51515 !important;
+	border-radius: 4px;
+	color: white;
+	text-shadow: none;
+	background: none repeat scroll 0% 0% #E51515 !important;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	position: relative;
+	top: auto;
+	right: auto;
+
+	a {
+		color: white !important;
+		text-shadow: none;
+	}
+}
+/*
+li.boxclosexbutton {
+  background: url("/siteowner/artwork/artwork/sprite2.png") no-repeat -664px -67px;
+	width: 22px;
+	height: 22px;
+	margin-top: 11px;
+}*/
+
+#lightboxmailform, #lightboxnewform {
+  height: auto;
+}
+
+.lightboxactioncontainer {
+	height: auto;
+}
+
+#lightboxfullmodal .linkbar {
+	li {
+		margin-top: 5px !important;
+	}
+
+	font-size: 12px;
+	input[type="text"] {
+		padding: 3px !important;
+		margin-right: 20px;
+	}
+}
+
+#calculatorbox {
+	tbody {
+		display: block;
+		margin-top: 44px;
+	}
+}
+
+#pcsuggestinputrow {
+	display: none;
+}
+
+#modalloginbox input {
+	float: left;
+	margin-bottom: 1em;
+}
+
+#lightboxfullmodal .leftside .reference1 {
+	margin-top:17px;
+	display:block;
+}
+
+/*
+	the lightbox tools modal
+*/
+
+#lightboxdashboard #lightboxnames .listlightbox {
+	height: auto;
+}
+
+.lightboxformtable input {
+	padding: 10px;
+}
+
+#newlbname {
+	width: 252px !important;
+	margin-top: -20px;
+	float: left;
+}
+
+.listlightbox {
+	.info {
+	width: 342px !important;
+  	padding-right: 10px;
+  	}
+  	.toolslabel {
+  		display: none;
+  	}
+}
+
+#floatinglightbox #lightboxtoolbar {
+	background-color: #ccc !important;
+}
+
+#lightboxmailformform .lightboxtools {
+
+	display: none;
+}
+
+#lightboxnames .current {
+    border: 2px solid black;
+}

@@ -1,0 +1,85 @@
+#sidebar {
+
+    .advsrchlabel {
+		line-height: 1.8;
+        font-size: 21px;
+	}
+
+    .topbar {
+        padding-left: 20px;
+    }
+
+    #sidebaradvanced {
+
+        input[type='checkbox'] {margin-top: 3px; float: left; margin-right: 5px;}
+
+		margin-top: 0;
+        padding-left: 16px;
+        @include vendor(box-sizing, border-box);
+
+        .datefilters .fyearinput {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .arrowboxcontainer {
+            width: 160px;
+        }
+
+        .arrowbox {
+           margin-top: 10px;
+           padding-top: 12px;
+           font-size: 15px;
+           font-weight: 300;
+           border-top: 1px solid #bbb;
+           color: #444;
+
+           div.arrowicon {
+               margin-top: 8px;
+           }
+
+        }
+
+        ul {
+        	margin-left: 0;
+            margin-top: 0;
+
+        	ul {
+
+             margin-top: 14px;
+
+             li {
+                 margin-top: 8px;
+             }
+
+            }
+
+        }
+
+        .fbtns {
+			margin-top: 0;
+
+			li {
+				margin-top: 0;
+			}
+		}
+    }
+
+}
+
+
+
+#sidebaradvanced #recentsearcheslist li { margin-left: 0;}
+
+.lifiltersearchagain, .lisearchwithin {display: none !important;}
+
+
+
+// apply and reset buttons
+.fbtns {
+    li {
+        float: left;
+        width: auto;
+        margin-right: 3px !important;
+    }
+}

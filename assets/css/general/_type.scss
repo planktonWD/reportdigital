@@ -1,0 +1,183 @@
+/*
+
+	All type CSS
+
+*/
+
+@mixin heading-font {
+	font-family: $heading-font;
+	font-weight: $bold-weight;
+}
+
+///////////////////////////
+///////////////////////////
+
+body {
+	font-size: emCalc(13px);
+    line-height: $baseline;
+	font-family: $body-font;
+	font-weight: $normal-weight;
+	//color: $body-medium;
+	color: black;
+	text-shadow: $text-shadow;
+	min-width: 980px;
+}
+
+
+.highlight {
+	color: #70b43a;
+}
+
+#pagelayoutmenu td {
+	color: $body-medium;
+}
+
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	background: $html-background;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+strong, b {
+	font-weight: $bold-weight;
+}
+
+em {
+	font-style: italic;
+}
+
+h1,h2,h3,.h3 {
+	@include heading-font;
+	color: $body-light;
+}
+
+h1, #site-title {
+    font-size: 1.24615em;
+	line-height: 1.5em;
+	margin-bottom: 0.4em;
+	margin-top: 20px !important;
+
+   	a {
+   		text-decoration: none;
+   	}
+}
+
+h1.large-h1, #contentwrapper h1 {
+	font-size: 26px;
+    font-weight: 100;
+    color: black;
+}
+
+h2 {
+    font-size: 1.14615em;
+	line-height: 1.5em;
+	margin-bottom: 0.8em;
+	//text-transform: uppercase;
+}
+
+#home h2 {
+	margin-top: 1em;
+	float: left;
+	width: 100%;
+}
+
+h3, .h3 {
+    font-size: 1.0462em;
+    line-height: 1.2222em;
+	margin-bottom: 0.3em;
+}
+
+p, .button, #content ul, #metadatacontainer, table, #linkmodalterms{
+	margin-top: 0em;
+    margin-bottom: 1.6923em;
+    font-size: 0.9em;
+}
+
+
+#gallerybar li a {
+	font-size: inherit;
+}
+
+#sidebar .gallerygrouptitle {
+	color: inherit;
+}
+
+.date {
+	color: $body-medium;
+	text-transform: uppercase;
+	margin-bottom: 0.7em;
+	@include heading-font;
+}
+
+
+.lead {
+	font-size: 1.15em;
+    line-height: 1.62222em;
+}
+
+
+a {
+	color: $primary-color;
+	text-decoration: none;
+	&:hover {color: $secondary-color; text-decoration: none !important;}
+}
+
+
+h1,h2 {
+
+	a {
+		color: $body-light !important;
+
+
+		&:hover {
+			color: $secondary-color !important;
+		}
+	}
+}
+
+// effect the link on left of page http://photonewzealand.infradoxxs.com/search/preview/detail-of-classic-car-bonnet-figure-on-rusty/0_00343566.html
+#preview .keytoggle {
+	margin-top: 20px;
+}
+
+#previewpagetitle {
+	color: black;
+}
+
+.plankton-byline {
+	position: absolute;
+	top: 74px;
+	text-align: right;
+	width: 433px;
+	right: 29px;
+
+	h2 {
+		font-weight: 500;
+    	color: black;
+    	font-size: 20px;
+    	margin-bottom: 0;
+		line-height: 1.2;
+		margin-top: 20px !important;
+	}
+
+	span {
+		color: rgba(0,0,0,0.5);
+    	font-weight: bold;
+    	text-transform: uppercase;
+	}
+}
+
+.keyword-index-alphabet {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;;
+	bottom: 1em;
+
+	a {
+		color: black;
+		&:hover {
+			cursor: text;
+		}
+	}
+}

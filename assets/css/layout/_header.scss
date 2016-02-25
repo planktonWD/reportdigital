@@ -1,0 +1,120 @@
+/*
+
+	Header Styles
+
+*/
+
+//
+//
+//	mastheadcontainer
+//
+//
+
+#mastheadcontainer {
+	//overflow-y: hidden;
+}
+
+// fix it for full width situations
+#mainMenuContainer {
+	padding-left: 24px;
+  	float: left;
+}
+
+//
+//
+//  Masthead - the main header section doesn't contain the nav or anyting
+//
+//
+
+#masthead {
+	padding: 2em 0 0 0;
+	position: relative;
+	overflow-y: hidden;
+	height: 136px;
+
+
+	  //
+	  //
+	  //  the shading behind main menu
+	  //
+	  //
+
+	  &:after {
+	  	content: "";
+	  	background: #F2F2F2;
+	  	height: 31px;
+	  	width: 100%;
+	  	top: 36px;
+	  	left: 0;
+	  	position: absolute;
+	  	z-index: 7;
+	  }
+
+	.masthead-inner {
+		position: relative;
+	}
+
+
+	//
+	//
+	//	the rightside stuff like login etc
+	//
+	//
+
+	.mastheadright {
+		position: absolute;
+		top: -48px;
+		right: 0;
+		height: 2em;
+	}
+
+	//
+	//
+	//	the leftside just logo
+	//
+	//
+
+	.mastheadleft {
+		position: relative;
+		z-index: 999;
+		overflow:visible;
+		margin-top: -12px;
+	}
+
+}
+
+//
+//
+// #search move over on full view
+//
+//
+
+.mastheadleft {
+	margin-left: 26px;
+	float: left;
+	width:200px;
+	height: auto !important;
+}
+
+//
+//
+//	the .phone thing at top right of site
+//
+//
+
+.phone i {
+	@include sprite(7px, 14px, -51px, -3px);
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+//
+//
+//	padding to right of full width view
+//
+//
+
+.mastheadright {
+	padding-right: 27px;
+}

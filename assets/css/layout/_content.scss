@@ -1,0 +1,69 @@
+#search #contentwrapper, #gallery #contentwrapper, #preview #contentwrapper {
+	border-top: 1px solid #ccc;
+}
+
+.textcontainer {
+	position: relative;
+	padding-left: 27px !important;
+	box-sizing: border-box;
+}
+
+.textcontainer #plankton-menu-list-container {
+	position: absolute;
+	top: 46;
+	left: -167px;
+}
+
+#gallery #sidebar {
+	margin-top: 1px;
+}
+
+#cart .centeredcontent {
+	padding-left: 27px;
+
+	.innerpadding {
+		padding: 0;
+	}
+}
+
+#orders .container {
+
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+.carttooltab_us_0_0 {
+	background: url('/siteowner/artwork/artwork/cart.png');
+	background-color: $green;
+	border-radius: 4px;
+}
+
+.lightboxtooltab_us_0_0 {
+	background: url('/siteowner/artwork/artwork/lightbox.png');
+	background-color: $green;
+	border-radius: 4px;
+}
+
+#keywordindex .textcontainer {
+	float: left;
+	width:100%;
+}
+#mainimagelist {
+	background: white;
+}
+
+#home #pagewrapper .mc-image {
+	position: relative;
+    display: block;
+
+    max-width: 100%;
+
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	max-height: 424px;
+	padding-bottom: 41.40625%;
+
+	height: 646px;
+
+}

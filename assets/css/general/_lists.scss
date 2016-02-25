@@ -1,0 +1,18 @@
+.textcontainer {
+	ul {
+		list-style: disc outside none;
+		margin-bottom: 1em;
+		margin-left: 3em;
+	}
+
+	ol {
+		list-style: decimal outside none;
+		margin-bottom: 1em;
+		margin-left: 3em;
+	}
+}
+
+
+.textcontainer li {
+	font-size: 0.9em !important;
+}

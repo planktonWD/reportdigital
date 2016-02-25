@@ -1,0 +1,16 @@
+/*
+
+	Styles for the admin toolbar for admin users, basically just making sure it sits on top of other content and the sitewide styles don't bugger up the lightbox window
+
+*/
+#admintoolbar, #suppliertoolbar {
+	z-index: 99;
+}
+
+#adminmenu {
+	line-height: 1.1em;
+}
+
+.admininfothumbnail {
+	margin-top: 54px;
+}

@@ -1,0 +1,22 @@
+#masthead {
+    padding-top: 20px;
+    height: 125px;
+    position: relative;
+}
+
+    #home #masthead {
+        height: 95px;
+    }
+
+// effects full width only as overwritten below
+#topcompimg {
+    margin: 20px !important;
+}
+
+    // not full width pages
+    #pagewrapper {
+
+        #topcompimg {
+            margin: 20px 0 20px 0 !important;
+        }
+    }

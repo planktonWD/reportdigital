@@ -1,0 +1,185 @@
+/*
+
+	Preview Styles
+
+*/
+
+#blackout {
+    background-color: white;
+}
+
+#cart {
+
+    .sizelabel .sizelabel {
+        display: none;
+    }
+
+    .sizecm {
+        display: none;
+    }
+}
+
+.blobinner .caption {overflow: visible;}
+
+#preview {
+
+    .sizelabel {
+        display: none;
+    }
+
+    .sizecm {
+        display: none;
+    }
+
+    #keywordslist li {
+        background-color: white;
+    }
+}
+
+.hidebuttons, #hidebuttons {
+
+    height: auto;
+}
+
+.nextpagebox {
+    float: none;
+    display: inline-block;
+}
+
+.layout1, .layout4 {
+    .nextpagebox {
+        float: left;
+
+    }
+}
+
+.layout2, .layout4 {
+    .nextpagebox {
+        font-size: 12px;
+
+    }
+}
+
+
+.layout4 {
+    .nextpagebox {
+        padding: 0 20px;
+        font-size:18px;
+
+    }
+}
+
+#preview  .filesizes td div {
+    float: left;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: solid 1px #aaa;
+
+    &.sizedisk {
+
+        border-right: 0;
+    }
+}
+
+.thumbnavpageprev, .thumbnavpagenext {
+    background-color: #70b43a !important;
+}
+
+#preview .previewbox {
+
+	margin-top: 10px !important;
+}
+
+#preview .fieldname {
+    font-weight: normal;
+}
+
+#preview .fieldvalue a {
+    color: $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.itemsperpage li.on {
+    font-weight: bold;
+}
+
+#preview {
+
+    #contentwrapper {
+        min-width: 1288px;
+    }
+
+    .previewboxcontainer {
+        margin-bottom: 20px;
+    }
+
+    .newkeywordsbox {
+        background: transparent;
+    }
+
+	.cref .fieldname, .caption .fieldname {
+		display: none;
+	}
+
+	.cref .fieldvalue, .caption .fieldvalue {
+		font-size: 15px;
+		margin-bottom: 7px;
+		line-height: 19px;
+		margin-left: 0;
+	}
+
+	.metadata {
+		width: 491px;
+
+		.c1, .c2 {
+			a:first-of-type {
+				margin-right: 30px;
+				width: 43%;
+				display: inline-block;
+			}
+
+			.fieldvalue {
+				width: 74%;
+			}
+		}
+
+		#metadatacontainer {
+			width: 100%;
+            margin-top: 2px;
+		}
+	}
+
+	.fieldcontainer.author {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.restrictioninfo, .filerestrictions {
+		margin-bottom: 1em;
+	}
+
+}
+
+#preview #keywordslist a {
+
+    color: $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+/*
+#preview .c2, #preview .c3 {
+	display: none;
+}
+
+#preview .c1 span, #preview .c11 span {
+	padding-right: 10px;
+}
+
+#paginatefiles {
+	a li {background-size: cover !important; margin: 0 !important;}
+}*/

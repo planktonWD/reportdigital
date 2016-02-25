@@ -1,0 +1,49 @@
+/*
+
+	Images styles
+
+	Mostly for the logos on home page and home page gallery matrix
+
+*/
+
+img {
+	max-width: 100%;
+}
+
+// Image replacement mixin
+@mixin phark {
+	text-indent: -999em;
+	background: url(../img/sprite.png) no-repeat;
+}
+
+#gallerymatrix .hovertitle {
+margin-top: -180px;
+background-color: rgba(0,0,0,0.7);
+font-family: $nav-font;
+text-shadow: $text-shadow-dark;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+#gallerymatrix .gmtitle {
+height: 100px;
+width: 180px;
+padding-top: 80px;
+
+}
+
+#gallerymatrix .mtrx div {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  /* line 39, ../sass/general/_images.scss */
+  #gallerymatrix .mtrx div:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+
+.gridModeBox .thumbnail img {
+	vertical-align: bottom;
+	margin-bottom: 10px;
+}

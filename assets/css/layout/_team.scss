@@ -1,0 +1,28 @@
+/*
+
+	Team styles for the contact page
+
+*/
+
+.team-members {
+	text-align: center;
+	list-style: none !important;
+	margin: 0 !important;
+
+	img {
+		@include border-radius(174px);
+		margin: 20px 0;
+		width: 174px;
+		border: solid 1px black;
+	}
+
+	li {
+		float: left;
+		width: 176px;
+		margin-right: 18px;
+		margin-left: 18px;
+		min-height: 410px;
+
+		a {font-size: 11px;}
+	}
+}

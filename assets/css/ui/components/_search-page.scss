@@ -1,0 +1,60 @@
+// add a little margin top to the select box in the search toolbar above the thumbs
+// removed as using buttons now
+/*.itemsperpage {
+    margin-top:3px;
+}*/
+
+// make the navbar (toolbar with itemsperpage etc) taller
+.navbar {
+    height: 28px;
+}
+
+// these filters appear in the .topbar after an advanced search, make them same font-size
+#filterlist li {font-size: 1em;}
+
+// set the fontsize for the top bar where results are, and remove the padding left
+.topbar {
+    font-size: 14px;
+    padding-left: 0;
+}
+
+// "Results for", add : in there and reduce opacity
+.querywords {
+    opacity: 0.8;
+    position: relative;
+
+    span {
+        margin-right: 8px !important;
+    }
+
+    &:after {
+        position: absolute;
+        content: ":";
+        width: 3px;
+        height: 10px;
+        top: 0;
+        right: 4px;
+    }
+}
+
+// make the full-width borders dotted and more subtle
+.navbar, #searchresults {
+    border-top: 1px solid #bbb;
+}
+
+.navbarbottom {
+    border-bottom: 1px solid #bbb;
+}
+
+// hide the layout button
+.navbarsection4 {
+
+    li {
+
+        background-color: $red;
+
+        &:first-of-type {
+            display: none;
+        }
+    }
+}

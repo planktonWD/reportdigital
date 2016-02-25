@@ -1,0 +1,90 @@
+/*
+
+	Cart Styles
+
+
+
+*/
+
+
+#floatingcart #carttoolbar ul li.first {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#carttoolbar, #lightboxtoolbar {
+	font-size: 14px;
+	font-weight: 200;
+}
+
+#carttoolbar a {
+	color: black !important;
+}
+
+#cart .metadatacontainer .fieldcontainer {
+
+	&:first-of-type {
+
+		.fieldname {
+			display: none;
+		}
+
+		.caption {
+			font-size: 15px;
+			margin-bottom: 7px;
+			line-height: 19px;
+			margin-left: 0;
+		}
+
+	}
+
+	&:nth-child(2), &:nth-child(3) {
+		display: none;
+	}
+
+}
+
+#cart .orderitemcontainer .gridModeBox .moveover, #order .orderitemcontainer .gridModeBox .moveover {
+	display: none !important;
+}
+
+#cart .reference1 {
+	display: block;
+	margin-bottom: 9px;
+}
+
+.metadatacontainer .caption {
+	max-height: none !important;
+}
+
+.contentfilesizes td.sizelabel div, .contentfilesizes td.sizeinfo div {
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: solid 1px #aaa;
+
+	&:last-of-type {
+		border: none;
+	}
+}
+
+#cart .contentfilesizes td.sizelabel {
+	width: 100%;
+}
+
+#cart .orderdetailform td.label, #cart .orderdetailform .fieldname {
+	font-weight: normal;
+	color: black;
+}
+
+#cart {
+
+	#hidebuttons .searchlinks, #hidebuttons .leftside, #hidebuttons .leftsidelarge {
+    display: block !important;
+
+	}
+
+	.rfcode_4, .rfcode_7 {
+		display: none;
+	}
+}

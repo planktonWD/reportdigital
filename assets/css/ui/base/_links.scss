@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+a {
+    text-decoration: none !important;
+    color: #333 !important;
+    @include vendor(transition, 0.2s color);
+
+    @include attention() {
+        text-decoration: none !important;
+        color: #666 !important;
+    }
+}
+
+.layout li a, #fbtn_apply, #fbtn_reset, .searchwithfilters {
+    color: white !important;
+
+    @include attention() {
+        color: #ccc !important;
+    }
+}
+
+.activegroup {
+    text-decoration: underline !important;
+}
+p a {
+    text-decoration: underline !important;
+
+    @include attention() {
+        text-decoration: none !important;
+
+    }
+}

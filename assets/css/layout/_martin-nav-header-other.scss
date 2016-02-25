@@ -1,0 +1,225 @@
+/* mw new */
+
+ul.addedwithinlist li {
+    text-transform: initial;
+    color: black;
+}
+
+#keywordindex #keywordslist li {
+    border: 0px;
+    text-transform: lowercase;
+}
+
+.mini {
+    height: 110px !important; /* size of thumbs in mini mode */
+}
+.searchbar {
+    float: left;
+    margin-top: 20px;
+}
+#searchelements {
+	min-width: 395px;
+}
+#searchelements #searchtips {
+    float:right;
+    margin-top:26px;
+}
+#search .fsearchtable td.inputcontainer .isearch, #gallery .fsearchtable td.inputcontainer .isearch {
+    width: 223px !important;
+}
+.isearch {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+}
+
+span#resultscountinfo {
+    margin-left:10px;
+}
+.fsearchtable td.searchcontainer {
+    background-color: #70b43a;
+    border-top: 1px solid #70b43a;
+    border-bottom: 1px solid #70b43a;
+    color: white;
+    font-weight: bold;
+}
+#linksearch {
+    color:white;
+}
+
+#showactivefilters {
+    margin-left:15px;
+}
+
+#musearchgo {color:#fff;background-color:#70b43a;}
+
+.advsearchhiding {background-color:#70b43a;border:1px solid #70b43a;}
+
+#preview #pagleft,
+#preview #pagright {
+    background-color:#70b43a;border:1px solid #70b43a;
+}
+
+#pagelayoutmenu {
+    background-color:white;
+}
+
+.dropdownmenu {
+    background-color:#f2f2f2;
+    box-shadow:none;
+}
+.dropdownmenu li a,
+#mainMenuContainer li a {
+    color:black;
+    font-size:1.10em;
+}
+#mainMenuContainer ul#left {
+    margin-left:250px !important;
+    height: 31px;
+}
+#mainMenuContainer a.activepage {
+    font-weight:bold;
+}
+#mainMenuContainer ul#left li,
+#mainMenuContainer ul#right li  {
+    //border-right:1px solid #6b6b6b;
+    padding: 6px 14px 6px 10px;
+    margin-top: 0px;
+    position: relative;
+
+}
+/* hide separator from contact and cart */
+li#lmenu_9, li#lmenu_6 {
+    border-right:1px solid transparent !important;
+}
+
+/* lightbox icon */
+li#lmenu_8 a,
+li#lmenu_6 a {
+    background: url(/siteowner/artwork/artwork/bar-icons1.png) no-repeat scroll 0 0 transparent;
+    background-position: -1px -1px;
+    padding-left:28px !important;
+}
+/* cart icon */
+li#lmenu_6 a {
+    background-position: 0px -42px;
+}
+
+#masthead {
+    height:160px;
+    text-align:left;
+    border-bottom: solid 1px #ccc;
+    position: relative;
+}
+
+#home, #search, #gallery {
+    #masthead {
+        border-bottom: none;
+    }
+}
+
+#masthead .mastheadright {
+    width:auto;
+    padding-right:27px;
+    margin-top:10px;
+    height:25px;
+    margin-bottom: 8px;
+}
+
+.phonenumber {
+    background: url("/siteowner/artwork/artwork/sprite.png") no-repeat -51px -3px;
+    width: 7px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+#topcompimg {
+    left:0px;
+}
+.homeicon {
+    width:200px;
+    height:70px;
+    position:absolute;
+    left:10px;
+    top:20px;
+    z-index: 9;
+}
+.menuwrapper.fixcenterwidth {
+    background-color:#F2F2F2;
+    height: 31px;
+    position: relative;
+    z-index: 1;
+}
+
+.phone.alignright a {
+    color:#6b6b6b;
+}
+.phone.alignright a:hover {
+    color:#0077C8;
+}
+
+#menucartcount {
+    background-color:transparent;
+    color:#6b6b6b;
+}
+#menucartcount::before {
+    content:"(";
+}
+#menucartcount::after {
+    content:")";
+}
+
+
+.modaldialogbox {color:#6b6b6b;background-color:#fff;border:1px solid #808080;-webkit-box-shadow:2px 2px 3px 0px rgba(0, 0, 0, 0.5);-moz-box-shadow:2px 2px 3px 0px rgba(0, 0, 0, 0.5);box-shadow:2px 2px 3px 0px rgba(0, 0, 0, 0.5);}
+.toolsdialogbox,.toolshoverbox {background-color:#f7f7f7;border:1px solid transparent;-webkit-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.5);-moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.5);box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.5);}
+
+ul.colorbuttons a.button {font-weight:bold;background-image:none;}
+ul.colorbuttons a.button span {background-image:none;background-color:#70b43a;color:#fff;font-weight:bold;padding-bottom:1px;-moz-border-radius:4px;border-radius:4px;}
+
+
+/* mw new end */
+
+#mainMenuContainer {
+    height: 31px;
+
+    li {
+        font-weight: 300;
+    }
+}
+
+.dropdownmenu li {
+    font-weight: 300;
+}
+
+#mainMenuContainer ul#left, #mainMenuContainer ul#right {
+
+	li {
+		&:after {
+			content: "";
+			position: absolute;
+			top: 6px;
+			right: 0px;
+			height: 18px;
+			width: 1px;
+			background: #aaa;
+		}
+    }
+
+    li#lmenu_6 {
+        &:after {
+			width: 0;
+		}
+    }
+}
+
+.fsearchtable {
+    margin-top: 7px;
+}
+
+#search, #gallery {
+    #searchtips {
+        margin-right: 40px;
+    }
+}

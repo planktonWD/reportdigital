@@ -1,0 +1,176 @@
+/*
+
+	Nav Styles
+
+*/
+
+.dropdownmenu {
+	margin-top: -8px !important;
+}
+
+//
+//
+//	This is the main menu wrapper use this to position the nav
+//
+//
+
+.menuwrapper {
+  background-color: white;
+  border-bottom: none;
+  //padding-top: 12px;
+  position: relative;
+  top: -47px;
+}
+
+//
+//
+//	Nav link styling
+//
+//
+
+#mainMenuContainer, .dropdownmenu {
+	li a {
+		font-family: $nav-font !important;
+		font-weight: 200;
+		font-size: 14px;
+		color: black !important;
+	}
+
+	li.activepage a {font-weight: bold;}
+
+	li:hover, li.current, li.dropmenuover {
+		color: black;
+	}
+}
+
+//
+//
+//	This is the primary menu (like actual pages etc)
+//
+//
+
+#mainMenuContainer ul#left, #mainMenuContainer ul#right {
+
+	position: relative;
+	z-index:88;
+
+	li {
+		margin: 0;
+		padding: 7px 15px 6px 15px;
+		position: relative;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 6px;
+			right: 0px;
+			height: 21px;
+			width: 1px;
+			background: #aaa;
+		}
+
+		&.itemover, &.dropmenuover {
+			background: intial !important;
+			a {color: black !important;}
+		}
+
+		&#lmenu_9 {
+			&:after {
+			width: 0px;
+
+		}
+		}
+
+		&#lmenu_5 {
+			padding-left: 0;
+		}
+
+		&#lmenu_6 {
+			padding-right: 0;
+		}
+
+	}
+
+}
+
+#mainMenuContainer ul#left {
+	left: 213px;
+}
+
+//
+//
+//	This is the right side main menu
+//
+//
+
+#mainMenuContainer ul#right {
+
+	position: absolute !important;
+	z-index:88;
+	top: 0;
+	right: 24px !important;
+	display: block !important;
+
+	li {
+		border-right: none;
+
+
+		a {
+			position: relative;
+		}
+
+		&#lmenu_6 {
+			&:after {
+			width: 0px;
+
+		}
+		}
+
+	}
+
+	// nav icons
+	#menu_6, #menu_8 {
+		padding-left: 27px !important;
+	}
+
+	// nav icons
+	#menu_6 i, #menu_8 i {
+		position: absolute;
+		top: -4px;
+		left: 0;
+	}
+
+	#menu_6 i {
+		@include sprite(20px, 24px, 2px, 2px);
+	}
+
+	#menu_8 i  {
+		@include sprite(20px, 24px, -24px, 2px);
+	}
+
+}
+
+
+//
+//
+//  the dropdown menu
+//
+//
+
+.dropdownmenu {
+	padding: 0;
+	font-family: $nav-font !important;
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	top: 6.1em !important;
+}
+
+//
+//
+// the little cart menu item has a shitty background, get rid of it
+//
+//
+
+#menucartcount {
+	background: transparent !important;
+	color: black;
+}

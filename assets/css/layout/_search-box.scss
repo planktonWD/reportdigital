@@ -1,0 +1,70 @@
+/*
+
+	Primary Search Box styles
+
+*/
+
+#search .fsearchtable td.inputcontainer .isearch, #gallery .fsearchtable td.inputcontainer .isearch {
+	width: 213px !important;
+}
+
+#searchtips {
+	text-align: right;
+	margin-right: 4px;
+	font-size: 11px;
+}
+
+#searchelements {
+	margin-left: 0;
+	position: relative;
+}
+
+.searchbar {
+	float:left;
+}
+
+.searchwrapper {
+	left: 14px;
+	right: auto;
+	top:88px;
+
+	table {
+		margin-bottom: 0;
+	}
+}
+
+//
+//
+//	on full width move the search over
+//
+//
+
+#search #searchelements, #gallery #searchelements, #preview #searchelements {
+	//margin-left: 26px;
+}
+
+//
+//
+// get rid of text-shadow on submit button
+//
+//
+
+#linksearch {
+	text-shadow: none;
+}
+
+
+//
+//
+// move the search tips to right
+//
+//
+#searchtips {
+	text-align: right;
+	margin-right: 3px;
+	font-size: 11px;
+	margin-bottom: 2px;
+	position: absolute;
+	bottom: -4px;
+	right: -63px;
+}

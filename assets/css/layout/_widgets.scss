@@ -1,0 +1,67 @@
+/*
+
+	Widget styles
+
+	There are some commented out as the thumb slider widget was ditched
+
+*/
+
+/*.galleries-box {
+margin-left: 0px !important;
+width: 100%;
+background: white;
+}
+
+.galleries-scroller {
+	width: 894px;
+}
+
+.galleries-scrollbox {
+	width: 100%;
+}
+
+ul#galleries li {
+	background: white;
+
+	.tbox {
+		background-color: white;
+		margin-top: 0 !important;
+
+		.gallerytitle {
+			height: 19px;
+		}
+	}
+
+	.backthmb {
+	background-position: center top;
+	}
+}
+
+.gallerybutton {
+	float: left;
+	width: 20px;
+	background-color: #000;
+	height: 180px;
+	font-family: $puffy;
+	font-size:39px;
+	line-height: 172px;
+	color: white;
+	$text-shadow: none;
+
+	&:hover {
+		color: #ccc;
+	}
+
+}
+*/
+#gallerymatrix {
+
+	width: 100% !important;
+
+	.gmtitle {
+		height: 20px;
+		width: 180px;
+		padding-top: 11px;
+		color: $charcoal;
+	}
+}

@@ -1,0 +1,365 @@
+/*
+
+	Search results pages styles
+
+*/
+
+.hasseries1 {
+    display: none;
+}
+
+#search .hidebuttons {
+    height: auto;
+}
+
+.advsearchshowing, .gpanelhowing {
+  background: url('http://www.photonewzealand.com/siteowner/artwork/artwork/sprite.png') no-repeat -598px -68px;
+  width: 10px !important;
+  height: 18px !important;
+  margin-top: 1px;
+}
+
+#search.layout2 #topnavbar { border-top: none; padding-bottom: 4px; float: none;}
+
+.gridModeBox {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.navbar {
+	padding-bottom: 10px;
+}
+
+.searchlinks a {
+	@include transition(none);
+}
+
+#contentcolumn .innertube {
+		margin-top: 1px;
+		position: relative;
+	}
+
+.topbar, .topbar span {
+	background-color: transparent;
+	color: black;
+}
+
+.topbar {
+	padding: 8px 0 8px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+#contentcolumn .topbar {
+	text-align: center;
+}
+
+.closed-panel {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#sidebar {
+	background: $sidebar;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#searchresults, #gallery #gallerythumbnails, #gallery3 #gallerythumbnails, #sharedlightbox #sharedthumbnails {
+	position: relative;
+	z-index: 88;
+	padding-bottom: 220px;
+	border-top: 0;
+}
+
+.hassearchpanel, .hasgallerypanel {
+	margin-left: 265px !important;
+}
+
+.nosidebar {
+	margin-left: 82px !important;
+}
+
+#gallery3 {
+
+	#botnavbar {
+		font-size: 0.8em;
+
+		.layout {
+			left: 0;
+		}
+	}
+
+	#sidebar {
+		width: 397px;
+		border: none !important;
+		background: white;
+
+		.innertube {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#biographythumbbox {
+			padding: 0px;
+			border: none;
+			margin: 30px 0 15px 0;
+		}
+	}
+
+	.fullwidthpage {
+		background-color: white !important;
+	}
+
+}
+
+#gallery #contentcolumn, #sharedlightbox #contentcolumn {
+	min-width: 77%;
+}
+
+#sharedlightbox #contentcolumn {
+	margin-left: 265px !important;
+}
+
+#botnavbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: visible;
+	text-transform: uppercase;
+
+
+	li {
+		background: none !important;
+	}
+
+	.itemsperpage {
+		float: left;
+			li {
+				color: $primary-color;
+
+				&:hover {
+					color: $secondary-color;
+				}
+		}
+	}
+
+	.pagination {
+		float: right;
+
+		.pagenrinput {
+			width: 42px;
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+			height: 22px;
+		}
+	}
+
+	.layout {
+		position: absolute;
+		left: -100px;
+	}
+
+	.options {
+		position: absolute;
+		left: -200px;
+	}
+
+	a {
+		color: $primary-color;
+
+		&:hover {
+			color: $secondary-color;
+		}
+	}
+}
+
+#topnavbar {
+	overflow: visible;
+	text-transform: uppercase;
+	border: none;
+
+	.navbar {
+		border: none;
+	}
+
+	li {
+		background: none !important;
+	}
+
+	.itemsperpage {
+		position: absolute;
+		right: 180px;
+			li {
+				color: $primary-color;
+
+				&:hover {
+					color: $secondary-color;
+				}
+		}
+	}
+
+	.navbarsection3 {
+		padding-left: 0;
+	}
+
+	.pagination {
+		float: right;
+
+		.pagenrinput {
+			width: 42px;
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+			height: 22px;
+		}
+	}
+
+	a {
+		color: $primary-color;
+
+		&:hover {
+			color: $secondary-color;
+		}
+	}
+}
+
+
+#botnavbar {
+	top: auto;
+	bottom: 133px;
+
+	.itemsperpage {
+		position: absolute;
+		top:0;
+		right: 180px;
+	}
+}
+
+.thumbnavpageprev, .thumbnavpagenext {
+	background-color: #aaa;
+}
+
+.panelbackground {
+	background-color: transparent;
+}
+
+#taglist li {
+	float: left;
+	width:100%;
+}
+
+#taglist {
+	&::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+    	border-radius: 4px;
+    	background-color: rgba(0,0,0,.5);
+	    	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+	}
+
+	height: 150px !important;
+	width: 100%;
+  float: left;
+  overflow: scroll;
+  margin-top: 20px !important;
+}
+#taglistcontainer {
+	padding-bottom: 0px !important;
+}
+
+#taglistcontainer.taglistpos1 .gocontainer {
+	float: left;
+	margin-top:10px !important;
+	a {
+		margin-left: 0;
+	}
+}
+
+.booleansearchbottom {
+	padding-top: 4px !important;
+}
+
+#sidebar .innertube {
+	padding-top: 6px;
+}
+
+#search.layout0 , #gallery.layout0, #search.layout3 , #gallery.layout3, #search.layout2 , #gallery.layout2, #sharedlightbox .layout2, #sharedlightbox .layout3, #sharedlightbox .layout0 { //, #lightboxfullmodal {
+
+	/*.blobinner {
+		top: 1px !important;
+		left: 3px !important;
+		   margin-top: -1px !important;
+    		margin-left: -2px !important;
+	}*/
+
+	.gridModeBox {
+
+		float: none;
+		display: inline-block;
+		height: auto;
+		vertical-align:top;
+		margin-bottom: 0 !important;
+		border: none !important;
+
+		.caption {
+			display: block !important;
+			opacity: 0;
+			height: auto;
+		}
+
+
+
+		&:hover {
+			.caption {
+				opacity: 1;
+			}
+			.largeimage {
+				display: none;
+			}
+		}
+
+		.reference1 {
+			font-size: 13px;
+		}
+
+	}
+
+
+}
+
+#search.layout1, #gallery.layout1, #sharedlightbox .layout1 {
+
+	.gridModeBox .thumbnail img {
+		vertical-align: top;
+	}
+
+	.gridModeBox .thumbnail {
+		height: auto;
+		line-height: normal;
+	}
+}
+
+#sharedlightbox #thumbnailblob1 {
+
+	.gridModeBox .thumbnail img {
+		vertical-align: top;
+	}
+
+	.gridModeBox .thumbnail {
+		height: auto;
+		line-height: normal;
+	}
+}
+
+ul.oricheckboxes li {
+    background: none !important;
+    width: 100%;
+}
+
+#sharedlightbox .large .caption {
+    height: 120px;
+}

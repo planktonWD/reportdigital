@@ -1,0 +1,100 @@
+#home .centersearch {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 369px;
+    z-index: 900; // changed by Martin
+    height: auto;
+
+    #moveablesearch {
+        position:relative;
+        top: initial;
+        left: initial;
+
+        width: 400px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #searchelements {
+        margin: 0;
+    }
+
+    .searchbar {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    }
+
+    .isearch {
+    padding: 7px;
+    background-color: transparent;
+    }
+
+    .endcontainer {
+        display: none;
+    }
+
+    .searchcontainer {
+        background: #666;
+    }
+
+    .fsearchtable {
+
+        @include vendor(box-shadow, 0px 0px 0px 6px rgba(0,0,0,0.4));
+
+        td.searchcontainer {
+            background-color: #666;
+            border-top: 1px solid #666;
+            border-bottom: 1px solid #666;
+            color: #fff;
+            font-weight: normal;
+        }
+    }
+
+}
+
+#linksearch {
+    color: white !important;
+
+    &:hover {
+        color: white !important;
+    }
+}
+
+.fsearchtable {
+
+    td.inputcontainer .isearch {
+        padding-left: 5px;
+    }
+
+    td.searchcontainer {
+        background-color: $red;
+        border-top: 1px solid $red;
+        border-bottom: 1px solid $red;
+    }
+}
+
+
+
+
+#moveablesearch {
+    position:absolute;
+    top: 118px;
+    left: 6px;
+}
+
+#searchwithincontainer {
+	float: left;
+	margin-top: 11px;
+}
+
+
+#searchoptionsbox input {
+    margin-top: 3px;
+float: left;
+margin-right: 5px;
+margin-bottom: 10px;
+}

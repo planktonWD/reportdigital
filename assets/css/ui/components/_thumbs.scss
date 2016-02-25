@@ -1,0 +1,55 @@
+// this is only for the GRID layout
+.layout0 {
+
+    // the boxes not on hover
+    .gridModeBox {
+
+        height: 267px;
+        position: relative; // coz it need to position absolute the icons
+        //margin-right: 40px !important; // coz the thumbs video is an issue
+
+        // show the caption by default always
+        .caption {
+            display: block !important;
+        }
+
+        // hide the caption as it there is too much of it for the container e.g its' truncated
+        overflow-y: hidden;
+
+        // position these to the bottom of the container, these are the icons (css will effect both hover and non over icons)
+        .searchlinks {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        // set the height of the caption for both hover and non hover states
+        .caption {
+            height: 67px !important;
+            overflow: hidden;
+            font-size: 11px;
+            margin-left: 9px;
+            margin-right: 9px;
+
+        }
+
+        // hide the icons in the thumbs
+        .searchlinks {
+            display: none;
+        }
+
+    }
+
+    // the boxes on hover
+    .blobstyle {
+
+        // increase the height of the overlay container .blobstyle
+        height: 271px !important;
+
+        // hide the ref number 000034567 etc
+        .gridModeBox .fileid0 {
+            display: none !important;
+        }
+
+    }
+}

@@ -1,0 +1,50 @@
+/*
+
+	Footer Styles
+
+*/
+/*
+
+	Footer Styles
+
+*/
+
+#page-footer {
+	min-height: auto;
+	p {
+		margin-bottom:0;
+	}
+}
+
+.footercontainer {
+	position: relative;
+
+	&:after {
+		content: "";
+    	background: #d1d1d1;
+    	height: 31px;
+    	width: 100%;
+    	top: 0px;
+    	left: 0;
+    	position: absolute;
+    	z-index: 7;
+	}
+
+	p {
+		position: relative;
+		z-index: 999;
+		padding-top: 5px;
+		text-align: center;
+	}
+}
+
+#bottombar {
+	display: none;
+}
+
+
+.poweredbox {
+	float: left;
+	font-size: 10px;
+	width:100%;
+}

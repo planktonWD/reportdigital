@@ -1,0 +1,50 @@
+#group_layout3 #categorygroups li, #categorythumbs .groupbox p.title {
+
+    font-weight: normal;
+
+}
+
+#gallery {
+
+    #sidebar {
+
+        #sidebargrouptitle {
+            font-size: 21px;
+        }
+    }
+
+
+    #gallerybar {
+        margin-left: 20px;
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li a {
+            font-size: inherit;
+        }
+
+        li.current {
+            font-weight: normal;
+
+            a {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}
+
+#group {
+    .trailparent {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .groupbox .titlebar p.title, .groupbox .titlebar p.info {
+        font-weight: normal;
+    font-size: 11px;
+
+    padding: 0;
+    }
+}

@@ -1,0 +1,78 @@
+
+
+// Colors
+
+$master-gradient-top: #00ACEB;
+$master-gradient-bottom: #0077C8;
+
+@mixin sprite($width, $height, $val1, $val2) {
+	background: url('http://171.33.133.210/siteowner/artwork/artwork/sprite.png') no-repeat $val1 $val2;
+	width: $width;
+	height: $height;
+}
+
+// Nice gradient mixin
+@mixin background-gradient($from, $to){
+background: $from; /* Old browsers */
+background: -moz-linear-gradient(top, $from 0%, $to 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to));
+background: -webkit-linear-gradient(top, $from 0%,$to 100%);
+background: -o-linear-gradient(top, $from 0%,$to 100%);
+background: -ms-linear-gradient(top, $from 0%,$to 100%);
+background: linear-gradient(to bottom, $from 0%,$to 100%);
+}
+
+$green: #70b43a;
+
+$charcoal: #424242;
+$grey: #777777;
+$light-grey: #9F9F9F;
+$sidebar: #E9E9E9;
+
+$body-dark: $charcoal;
+$body-medium: $grey;
+$body-light: $light-grey;
+
+$box-background: rgba(0,0,0,0.5);
+
+$html-background: white;
+$header-background: white;
+$content-background: white;
+$footer-background: white;
+
+$text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+$text-shadow-dark: 1px 1px 1px rgba(0,0,0,0.3);
+
+// Links
+$primary-color: #0077C8;
+$secondary-color: #00ACEB;
+
+
+// Type
+
+$em-base: 17px;
+
+@function emCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
+
+$baseline: emCalc(25px);
+
+$body-font: 'Open Sans', sans-serif;
+$puffy: $body-font;
+
+
+$nav-font: $body-font;
+
+$heading-font: $body-font;
+
+$light-weight: 300;
+$normal-weight: 400;
+$bold-weight: 700;
+
+// Break points 
+$nav-left: 1135px;
+$max-width: 1170px;
+$centered-fully: 1380px;
+
+

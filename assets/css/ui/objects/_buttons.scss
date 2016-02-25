@@ -1,0 +1,67 @@
+// Button Borders
+$btn-radius: 0px;
+$btn-border-width: 0;
+$btn-border-style: solid;
+$btn-border-color: transparent;
+
+// Button Padding
+$btn-padding: 3px;
+$btn-vertical-padding: $btn-padding - $btn-border-width;
+$btn-horizontal-padding: double($btn-padding) - $btn-border-width;
+
+@mixin button {
+	display: inline-block; /* [1] */
+    vertical-align: middle; /* [2] */
+    text-align: center; /* [4] */
+    border: none; /* [4] */
+    margin:  0; /* [4] */
+    cursor: pointer; /* [5] */
+    overflow: visible; /* [6] */
+    padding: $btn-vertical-padding $btn-horizontal-padding !important; /* [7] */
+    background-color: #666;
+    color: #fff;
+
+
+    @if($btn-border-width != 0) {
+        border: $btn-border-width $btn-border-style $btn-border-color;
+    }
+
+    @if($btn-radius != 0) {
+        border-radius: $btn-radius;
+    }
+
+	text-decoration: none !important;
+	margin-bottom: $spacing-unit !important;
+	@include vendor(transition, 0.3s);
+	@include vendor(box-sizing, border-box);
+	position: relative;
+
+
+}
+
+.button {
+	@include button;
+}
+
+#sidebar {
+
+	#fbtn_apply, #fbtn_reset, .searchwithfilters  {
+		@include button;
+		background-color: $red;
+	}
+}
+
+// no margin bottom buttons
+
+#sidebar {
+
+	#fbtn_apply, #fbtn_reset, .searchwithfilters  {
+		margin-bottom: 10px !important;
+	}
+}
+
+// red buttons
+
+ul.colorbuttons a.button span {
+	background-color: $red;
+}

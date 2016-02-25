@@ -1,0 +1,91 @@
+// removed beginning of 2016
+//@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+
+
+/*
+
+    Infradox Code Below
+
+*/
+
+#categorythumbs .groupbox {
+height:230px;
+}
+
+/*
+
+    commented out by Infradox guys
+
+    #videoplayer1, #videoplayer_size0 {
+        width: inherit;
+        height: inherit;
+        background-color: white;
+    }
+
+*/
+
+/*
+
+    Mikes Code Below
+
+*/
+
+
+$red: #820000;
+
+body {
+    min-width: 1024px;
+}
+
+body, #mainMenuContainer li a {
+
+    // removed beginning of 2016
+    //font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+$spacing-unit: 22px;
+
+#pagewrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    min-width: 1024px;
+}
+
+@import "ui/settings/functions";
+@import "ui/tools/mixins";
+
+@import "ui/base/headings";
+@import "ui/objects/buttons";
+@import "ui/base/links";
+
+
+@import "ui/components/homepage";
+@import "ui/components/nav";
+@import "ui/components/footer";
+@import "ui/components/header";
+@import "ui/components/advanced-search-sidebar";
+
+@import "ui/components/slideshow";
+@import "ui/components/search-box";
+
+//@import "ui/components/cart-lightbox-slideout-modal";
+
+@import "ui/components/search-page";
+
+@import "ui/components/gallery-page";
+
+
+
+//@import "ui/components/layout";
+
+//@import "ui/components/page-nav";
+
+//@import "ui/components/dropdown-menu";
+
+@import "ui/components/preview-page";
+
+@import "ui/components/thumbs";
+
+@import "ui/trumps/helpers";

@@ -1,0 +1,26 @@
+.groupbox .titlebar p.info {
+    display: none;
+}
+
+#gallerytitlebar #resultscountinfo {
+    display: none;
+}
+
+#group .groupthumbs {
+    margin: 20px 0 0 0;
+}
+
+#gallery .hidebuttons {
+
+    height: auto;
+}
+
+.groupbox .titlebar p.title {
+    text-align: center;
+    margin: -20px 0 0 0;
+    font-weight: normal;
+}
+
+#group #gallerygrouptitle, #group #gallerygroupdesc {
+    display: none;
+}

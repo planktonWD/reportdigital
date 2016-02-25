@@ -1,0 +1,32 @@
+#mainimagelist {
+    //height: 650px;
+    //height: 590px;
+}
+/*
+@media (min-width: 1200px) {
+
+    #home #pagewrapper .mc-image {
+        position: relative;
+        display: block;
+        max-width: 100%;
+        background-position: top center;
+        -ms-background-size: contain;
+        -webkit-background-size:  contain;
+        -moz-background-size:  contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 41.40625%;
+        height: 646px;
+    }
+}
+*/
+#home #pagewrapper {
+
+    padding-bottom: 0;
+    background: white;
+
+}
+
+#home #mainimagelist {
+    background: white !important;
+}

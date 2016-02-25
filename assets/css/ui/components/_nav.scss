@@ -1,0 +1,120 @@
+// infradox bug fix
+.dropdownmenu {
+    text-align: left;
+    @include vendor(box-shadow, 2px 2px 2px rgba(0,0,0,0.3));
+}
+
+.plankton-menu {
+    position: absolute;
+    top: 46px;
+    left: 263px;
+    width: 434px;
+    z-index: 1000; // martin doesn't want this
+}
+
+    // for non full width pages
+    #pagewrapper .plankton-menu {
+        left: 244px;
+    }
+
+.plankton-menu__parent {
+    font-size: 20px;
+    float: left;
+    position: relative;
+
+    &:hover {
+        .plankton-menu__children {
+            display: block;
+        }
+    }
+}
+
+    #plankton-menu-news {
+        width: 180px;
+    }
+
+    #plankton-menu-video {
+        width: 80px;
+    }
+
+    #plankton-menu-archive {
+        width: 170px;
+    }
+
+.plankton-menu__children {
+    display: none;
+    text-align: left;
+    @include vendor(transition, 0.3s);
+    position: absolute;
+    top: 24px;
+    left: -11px;
+    background: white;
+    min-width: 170px;
+    @include vendor(box-shadow, 2px 2px 2px rgba(0,0,0,0.3));
+    padding-top: 6px;
+
+
+    li {
+        font-size: 12px;
+        padding: 8px 12px;
+
+    }
+
+}
+
+//////
+
+////   Infradox menu
+
+////
+
+#home .menuwrapper, #home #mainMenuContainer {
+    height: auto;
+}
+
+.menuwrapper, #mainMenuContainer {
+    border-bottom: 0;
+}
+
+#left {
+    display: none;
+}
+
+#right {
+    top: 42px;
+    z-index: 999;
+
+    li {
+        font-size: 11px;
+        margin-left: 0 !important;
+    }
+
+    li a {
+        //font-size: 13px;
+        font-size: 11px !important;
+        text-transform: uppercase;
+    }
+
+    #lmenu_5 {
+        margin-left: 0  !important;
+
+    }
+
+    .plankton-loggedin-name {
+        padding-right: 0 !important;
+        position: absolute;
+        top: -22px;
+        right: 3px;
+        text-transform: uppercase;
+    }
+}
+
+    #pagewrapper {
+        #right {
+            right: -6px !important;
+        }
+    }
+
+#menucartcount {
+    padding-bottom: 0;
+}

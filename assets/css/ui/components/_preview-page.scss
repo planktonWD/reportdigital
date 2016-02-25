@@ -1,0 +1,47 @@
+/*#preview {
+
+	.newkeywordsbox {
+		background: #F2F2F2;
+	}
+
+}*/
+
+/*.dummy {
+	display: none !important;
+}*/
+
+#preview {
+
+    .innertubebottom {margin:15px 20px 0px 6px;}
+
+    .metadata {
+
+    	//min-width: 550px; // this is good when full width
+    	//min-width: 440px;
+        max-width: 446px;
+
+    	#metafields .fieldcontainer {
+    		margin-bottom: 25px;
+    	}
+
+    	.headline, .c1, .c2, .fieldname {
+    		display: none;
+    	}
+    }
+}
+
+#previewpagetitle {
+	display: none;
+}
+
+.previewtools {
+
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+
+    li {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

@@ -1,0 +1,92 @@
+/*
+
+	order page
+
+*/
+
+#order {
+
+	.moveover {
+
+		display: none !important;
+	}
+
+	.gridModeBox .movemover {
+		display: none !important;
+	}
+
+	td.sizeinfo {
+		width: 100%;
+	}
+
+	.orderdetailform {
+		width: 850px;
+	}
+
+	.sizeinfo .sizepixels, .sizeinfo .sizecm, .sizeinfo .sizeinches {
+    width: auto;
+    clear: none;
+    float: left;
+	}
+
+	.contentfilesizes tr td {
+		padding-bottom:8px;
+
+		.sizecm {
+
+			display: none;
+		}
+	}
+
+	td {
+		.sizelabel {
+			width: 200px;
+			border-right: none;
+		}
+	}
+}
+#order .metadatacontainer .fieldcontainer {
+
+	&:first-of-type {
+
+		.fieldname {
+			display: none;
+		}
+
+		.fieldvalue {
+			font-size: 15px;
+			margin-bottom: 7px;
+			line-height: 19px;
+			margin-left: 0;
+		}
+
+	}
+
+	&:nth-child(2) {
+
+		.fieldname {
+			display: none;
+		}
+
+		.caption {
+			font-size: 15px;
+			margin-bottom: 7px;
+			line-height: 19px;
+			margin-left: 0;
+		}
+
+	}
+
+	&:nth-child(4) {
+		display: none;
+	}
+
+}
+
+#order .orderitemcontainer .gridModeBox .moveover {
+	display: none !important;
+}
+
+#order .orderitemcontainer .gridModeBox {
+	font-size: 15px;
+}
