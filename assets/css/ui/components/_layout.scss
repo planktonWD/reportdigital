@@ -1,7 +1,34 @@
-#preview, #cart {
+/*#preview, #cart {
 
     #contentwrapper {
         padding-left: 13px;
         box-sizing: border-box;
    }
+}
+*/
+
+#order {
+
+    .contentfilesizes, .fieldname, .label, .gridModeBox .searchlinks  {
+        display: none;
+    }
+
+    .deliverybuttons {
+        margin-top: 30px;
+    }
+
+    .orderitemcontainer {
+        border-bottom: none !important;
+    }
+
+}
+
+#cart {
+    .orderdetailform td.label.requiredlabel {
+        color: #6b6b6b;
+    }
+
+    .contentfilesizes, .gridModeBox .searchlinks {
+        display: none;
+    }
 }

@@ -309,7 +309,8 @@ p a {
   display: none; }
 
 #page-footer {
-  border-top: none; }
+  border-top: none;
+  text-align: center; }
 
 .col-4 {
   width: 25%;
@@ -590,6 +591,29 @@ p a {
 
 .categorypagetable .titlecolumn h1 {
   font-size: 21px; }
+
+/*#preview, #cart {
+
+    #contentwrapper {
+        padding-left: 13px;
+        box-sizing: border-box;
+   }
+}
+*/
+#order .contentfilesizes, #order .fieldname, #order .label, #order .gridModeBox .searchlinks {
+  display: none; }
+
+#order .deliverybuttons {
+  margin-top: 30px; }
+
+#order .orderitemcontainer {
+  border-bottom: none !important; }
+
+#cart .orderdetailform td.label.requiredlabel {
+  color: #6b6b6b; }
+
+#cart .contentfilesizes, #cart .gridModeBox .searchlinks {
+  display: none; }
 
 /*#preview {
 
